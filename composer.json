@@ -1,11 +1,10 @@
 {
-    "name": "athiffau/management-interface",
+    "name": "hyn/management-interface",
     "description": "management interface for hyn/multi-tenant",
     "keywords": [
-        "athiffau",
+        "hyn",
         "management-interface"
     ],
-    "homepage": "https://github.com/athiffau/management-interface",
     "license": "MIT",
     "authors": [
         {
@@ -18,26 +17,31 @@
         "source": "https://github.com/hyn/management-interface",
         "docs": "https://hyn.readme.io"
     },
-    "repositories": {[
-        "type": "vcs",
-        "url": "https://github.com/athiffau/management-interface"
-    ]},
     "require": {
         "php" : ">=5.5.9",
         "hyn/multi-tenant": "*",
-        "athiffau/dashboard": "dev-master"
+        "laraflock/dashboard": "*"
     },
     "require-dev": {
         "phpunit/phpunit" : "5.*"
     },
     "autoload": {
         "psr-4": {
-            "Athiffau\\ManagementInterface\\": "src"
+            "Hyn\\ManagementInterface\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Athiffau\\ManagementInterface\\Test\\": "tests"
+            "Hyn\\ManagementInterface\\Test\\": "tests"
         }
-    }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "stable"
 }

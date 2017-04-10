@@ -20,7 +20,7 @@
     "require": {
         "php" : ">=5.5.9",
         "hyn/multi-tenant": "*",
-        "laraflock/dashboard": "*"
+        "laraflock/dashboard": "dev-bugfix"
     },
     "require-dev": {
         "phpunit/phpunit" : "5.*"

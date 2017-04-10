@@ -3,7 +3,8 @@
 namespace Hyn\ManagementInterface\Http\Controllers;
 
 use Illuminate\Contracts\Routing\ResponseFactory;
-use Laraflock\Dashboard\Controllers\BaseDashboardController;
+//use Laraflock\Dashboard\Controllers\BaseDashboardController;
+use App\Http\Controllers\Controller as BaseDashboardController;
 use Hyn\MultiTenant\Contracts\WebsiteRepositoryContract;
 use Hyn\MultiTenant\Models\Website;
 use Hyn\MultiTenant\Validators\WebsiteValidator;

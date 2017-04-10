@@ -5,7 +5,8 @@ namespace Hyn\ManagementInterface\Http\Controllers;
 use Hyn\Webserver\Contracts\SslRepositoryContract;
 use Hyn\Webserver\Models\SslCertificate;
 use Hyn\Webserver\Validators\SslValidator;
-use Laraflock\Dashboard\Controllers\BaseDashboardController;
+// use Laraflock\Dashboard\Controllers\BaseDashboardController;
+use App\Http\Controllers\Controller as BaseDashboardController;
 
 class SslController extends BaseDashboardController
 {

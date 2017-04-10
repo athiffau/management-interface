@@ -3,7 +3,7 @@
 namespace Hyn\ManagementInterface;
 
 use Illuminate\Support\ServiceProvider;
-use Laraflock\Dashboard\Providers\DashboardServiceProvider;
+//use Laraflock\Dashboard\Providers\DashboardServiceProvider;
 
 /**
  * Class PackageServiceProvider.
@@ -296,13 +296,13 @@ class ManagementInterfaceServiceProvider extends ServiceProvider
         return sprintf('%s/%s', __DIR__.'/..', $path);
     }
 
-    /**
-     * Registers module as DashboardModule.
-     */
-    private function registerAsDashboardModule()
-    {
-        /** @var \Laraflock\Dashboard\Repositories\Module\ModuleRepositoryInterface $moduleRepository */
-        $moduleRepository = $this->app->make('Laraflock\Dashboard\Repositories\Module\ModuleRepositoryInterface');
-        $moduleRepository->register(new DashboardModule());
-    }
+    // /**
+    //  * Registers module as DashboardModule.
+    //  */
+    // private function registerAsDashboardModule()
+    // {
+    //     * @var \Laraflock\Dashboard\Repositories\Module\ModuleRepositoryInterface $moduleRepository 
+    //     $moduleRepository = $this->app->make('Laraflock\Dashboard\Repositories\Module\ModuleRepositoryInterface');
+    //     $moduleRepository->register(new DashboardModule());
+    // }
 }

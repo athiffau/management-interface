@@ -3,12 +3,12 @@
 namespace Hyn\ManagementInterface;
 
 use Hyn\Webserver\Models\SslCertificate;
-use Laraflock\Dashboard\Repositories\Module\ModuleInterface;
+//use Laraflock\Dashboard\Repositories\Module\ModuleInterface;
 use Hyn\MultiTenant\Models\Hostname;
 use Hyn\MultiTenant\Models\Tenant;
 use Hyn\MultiTenant\Models\Website;
 
-class DashboardModule implements ModuleInterface
+class DashboardModule 
 {
     /**
      * A user-friendly name for your module.

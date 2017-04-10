@@ -7,7 +7,8 @@ use Hyn\MultiTenant\Models\Hostname;
 use Hyn\MultiTenant\Models\Website;
 use Hyn\MultiTenant\Validators\HostnameValidator;
 use Illuminate\Routing\ResponseFactory;
-use Laraflock\Dashboard\Controllers\BaseDashboardController;
+//use Laraflock\Dashboard\Controllers\BaseDashboardController;
+use App\Http\Controllers\Controller as BaseDashboardController;
 
 class HostnameController extends BaseDashboardController
 {

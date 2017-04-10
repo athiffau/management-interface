@@ -31,7 +31,7 @@ class ManagementInterfaceServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->register(DashboardServiceProvider::class);
+        //$this->app->register(DashboardServiceProvider::class);
     }
 
     /**
@@ -51,7 +51,7 @@ class ManagementInterfaceServiceProvider extends ServiceProvider
             $this->registerRoutes();
         }
 
-        $this->registerAsDashboardModule();
+        //$this->registerAsDashboardModule();
     }
 
     /**

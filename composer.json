@@ -18,10 +18,14 @@
         "source": "https://github.com/hyn/management-interface",
         "docs": "https://hyn.readme.io"
     },
+    "repositories": {[
+        "type": "vcs",
+        "url": "https://github.com/athiffau/management-interface"
+    ]},
     "require": {
         "php" : ">=5.5.9",
         "hyn/multi-tenant": "*",
-        "hyn/dashboard": "dev-master"
+        "athiffau/dashboard": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit" : "5.*"
